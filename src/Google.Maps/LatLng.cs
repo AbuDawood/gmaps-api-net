@@ -72,6 +72,7 @@ namespace Google.Maps
 		public double Latitude
 		{
 			get { return _latitude; }
+			private set { _latitude  = value; }
 		}
 
 		/// <summary>
@@ -81,6 +82,7 @@ namespace Google.Maps
 		public double Longitude
 		{
 			get { return _longitude; }
+			private set { _longitude  = value; }
 		}
 
 		/// <summary>
